@@ -34,12 +34,6 @@ function createMarkup(arr) {
 		).join('');
 }
 
-const refs = {
-	form: document.querySelector('#search-form'),
-	btnSearch: document.querySelector('.js-btn-search'),
-	gallery: document.querySelector('.gallery'),
-	btnLoadMore: document.querySelector('.load-more'),
-};
 
 let searchQuery = '';
 let page = 1;
